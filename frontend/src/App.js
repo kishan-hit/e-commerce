@@ -61,6 +61,7 @@ function App() {
             <Route path='/admin/products' element={<AdminProductsPage />} />
             <Route path='/admin/users' element={<AdminUsersPage />} />
           </Route>
+          {/* To handle urls which are not valid */}
           <Route path='*' element="Page not exists" />
         </Routes>
         <FooterComponent />
