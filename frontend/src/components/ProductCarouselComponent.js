@@ -30,7 +30,6 @@ const ProductCarouselComponent = () => {
           src="/images/carousel/carousel-2.png"
           alt="Second slide"
         />
-
         <Carousel.Caption>
           <LinkContainer style={cursorP} to="/product-details">
             <h3>Bestseller in Books Category</h3>
@@ -45,7 +44,6 @@ const ProductCarouselComponent = () => {
           src="/images/carousel/carousel-3.png"
           alt="Third slide"
         />
-
         <Carousel.Caption>
           <LinkContainer style={cursorP} to="/product-details">
             <h3>Bestseller in Cameras Category</h3>
