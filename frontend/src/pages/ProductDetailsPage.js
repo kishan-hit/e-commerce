@@ -2,24 +2,24 @@ import React from "react";
 import { Row, Col, Container, Image, ListGroup, Form, Button, Alert } from "react-bootstrap";
 import { Rating } from "react-simple-star-rating";
 import AddedToCartMessageComponent from "../components/AddedToCartMessageComponent";
-import ImageZoom from "js-image-zoom";
-import { useEffect } from "react";
+// import ImageZoom from "js-image-zoom";
+// import { useEffect } from "react";
 
 const ProductDetailsPage = () => {
-    var options = {
+    // var options = {
         // width: 400,
         // zoomWidth: 500,
         // fillContainer: true,
         // zoomPosition: "bottom",
-        scale: 2,
-        offset: { vertical: 0, horizontal: 0 },
-    };
-    useEffect(() => {
-        new ImageZoom(document.getElementById("first"), options);
-        new ImageZoom(document.getElementById("second"), options);
-        new ImageZoom(document.getElementById("third"), options);
-        new ImageZoom(document.getElementById("fourth"), options);
-    });
+    //     scale: 2,
+    //     offset: { vertical: 0, horizontal: 0 },
+    // };
+    // useEffect(() => {
+    //     new ImageZoom(document.getElementById("first"), options);
+    //     new ImageZoom(document.getElementById("second"), options);
+    //     new ImageZoom(document.getElementById("third"), options);
+    //     new ImageZoom(document.getElementById("fourth"), options);
+    // });
     return (
         <Container>
             <AddedToCartMessageComponent />
